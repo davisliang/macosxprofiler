@@ -1,4 +1,93 @@
-Processor:
+// Machine Info
+
+Main:
+        Model Name: MacBook Pro
+        Model Identifier: MacBookPro12,1
+        Processor Name: Intel Core i5
+        Processor Speed:  2.7 GHz
+        Number of Processors: 1
+        Total Number of Cores:  2
+        L2 Cache (per Core):  256 KB
+        L3 Cache: 3 MB
+        Memory: 8 GB
+
+RAM:
+        Memory Slots:
+
+        ECC:  Disabled
+        Upgradeable Memory: No
+
+      BANK 0/DIMM0:
+
+        Size: 4 GB
+        Type: DDR3
+        Speed:  1867 MHz
+        Status: OK
+        Manufacturer: 0x80AD
+        Part Number:  0x483943434E4E4E424C54414C41522D4E5544
+        Serial Number:  -
+
+      BANK 1/DIMM0:
+
+        Size: 4 GB
+        Type: DDR3
+        Speed:  1867 MHz
+        Status: OK
+        Manufacturer: 0x80AD
+        Part Number:  0x483943434E4E4E424C54414C41522D4E5544
+        Serial Number:  -
+
+
+Harddrive:
+      APPLE SSD SM0128G:
+
+        Capacity: 121.33 GB (121,332,826,112 bytes)
+        Model:  APPLE SSD SM0128G                       
+        Revision: BXW1SA0Q
+        Serial Number:  S23CNYAG115377      
+        Native Command Queuing: Yes
+        Queue Depth:  32
+        Removable Media:  No
+        Detachable Drive: No
+        BSD Name: disk0
+        Medium Type:  Solid State
+        TRIM Support: Yes
+        Partition Map Type: GPT (GUID Partition Table)
+        S.M.A.R.T. status:  Verified
+        Volumes:
+      EFI:
+        Capacity: 209.7 MB (209,715,200 bytes)
+        BSD Name: disk0s1
+        Content:  EFI
+        Volume UUID:  0E239BC6-F960-3107-89CF-1C97F78BB46B
+      disk0s2:
+        Capacity: 120.47 GB (120,473,067,520 bytes)
+        BSD Name: disk0s2
+        Content:  Apple_CoreStorage
+      Recovery HD:
+        Capacity: 650 MB (650,002,432 bytes)
+        BSD Name: disk0s3
+        Content:  Apple_Boot
+        Volume UUID:  72F41C9C-D7D1-3BC8-AE5B-6FD973435FBB
+
+
+Notework Card: en0:
+      Card Type:  AirPort Extreme  (0x14E4, 0x133)
+      Firmware Version: Broadcom BCM43xx 1.0 (7.21.171.10.1a16)
+      MAC Address:  d0:a6:37:eb:ee:2d
+      Locale: FCC
+      Country Code: US
+      Supported PHY Modes:  802.11 a/b/g/n/ac
+      Supported Channels: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144, 149, 153, 157, 161, 165
+      Wake On Wireless: Supported
+      AirDrop:  Supported
+      AirDrop Channel:  149
+      Auto Unlock:  Supported
+      Status: Connected
+
+OS: 
+      macOS Sierra Version 10.12
+
 
 //rdtsc.h
 
