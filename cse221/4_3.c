@@ -1,7 +1,8 @@
+//gcc -std=c90 4_3.c
 #include <stdio.h>
 #include "rdtsc.h"
-#include <time.h>
-
+#include <sys/time.h>
+#include <sys/syscall.h>
 
 int main() {
   int iter = 1000000;
@@ -11,9 +12,11 @@ int main() {
 
   
   for(i=0;i<iter;i++){
-    time_t t;
+    struct timeval tv;
+    
     start = rdtsc();
-    time(&t);
+    syscall(96);
+    //sys_gettimeofday(&tv, NULL);
     end = rdtsc();
 
     clock += end - start;

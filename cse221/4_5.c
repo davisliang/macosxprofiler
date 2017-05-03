@@ -30,5 +30,6 @@ int main(){
 		begin = rdtsc();
 		//writing out time to child
 		write(fd[1], &begin, sizeof(begin));
+
 	}
 }

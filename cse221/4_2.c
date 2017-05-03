@@ -18,7 +18,7 @@ int func6(int a, int b, int c, int d, int e, int f){return 0;}
 int func7(int a, int b, int c, int d, int e, int f, int g){return 0;}
 
 int main() {
-  int iter = 10000000;
+  int iter = 1;
   double begin, end;
   int i = 0;
 
